@@ -10,7 +10,7 @@
 // ....
 // 5 * 10 = 50
 
-Console.Write("Please , introduce the first number  : ");
+Console.Write("Please , introduce the  number  : ");
 int num = Convert.ToInt32(Console.ReadLine());
 for (int i = 0; i < 11; i++)
 {
