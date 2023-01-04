@@ -8,7 +8,8 @@
 // nythoP 
 // x 
 
-string[] array = { " Python " };
+string[] array = { " P", "y", "t", "h", "o", "n " };
+string[] array1 = {"w", "3" , "r", "e", "s", "o", "u", "r", "c", "e"};
 
 void PrintArray(string[] arr)
 {
@@ -20,20 +21,38 @@ void PrintArray(string[] arr)
 
 void FirstLast (string [] arr)
 {
-    string last = "n";
-    string first = "P";
-    for (int i = 0 ; i < arr.Length ; i++)
+    for (int i = 0; i < arr.Length; i++)
     {
-        if (i == 0) arr[i] = last ;
-        // if (i == arr.Length ) arr[i] = first;
-        Console.Write($"{arr[i]}, {i}");
+        if (i == 0) arr[i] = "n";
+        if (i == arr.Length - 1) arr[arr.Length - 1] = "P";
     }
 }
 
+void FirstLast1 (string [] arr)
+{
+    for (int i = 0; i < arr.Length; i++)
+    {
+        if (i == 0) arr[i] = "e";
+        if (i == arr.Length - 1) arr[arr.Length - 1] = "w";
+    }
+}
 
 PrintArray(array);
-Console.WriteLine("-------------");
+Console.WriteLine(" ");
+
 FirstLast(array);
 PrintArray(array);
+Console.WriteLine(" ");
+
+PrintArray(array1);
+Console.WriteLine(" ");
+FirstLast1(array1);
+PrintArray(array1);
+
+
+
+
+
+
 
 
