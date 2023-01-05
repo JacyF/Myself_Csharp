@@ -20,5 +20,5 @@ bool CheckTwoNumbers(int num1, int num2)
     else return false;
 }
 
-bool checkTwoNumbers = CheckTwoNumbers(firstnum,secondnum);
+bool checkTwoNumbers = CheckTwoNumbers(firstnum, secondnum);
 Console.WriteLine(checkTwoNumbers);
