@@ -14,7 +14,7 @@ bool Within20Of100Or200(int num)
 }
 
 bool within20Of100Or200 = Within20Of100Or200(number);
-Console.WriteLine(within20Of100Or200);
+Console.Write(within20Of100Or200);
 
 
 
